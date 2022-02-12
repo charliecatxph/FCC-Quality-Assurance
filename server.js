@@ -10,7 +10,7 @@ const passport = require('passport');
 
 const app = express();
 app.set('view engine', 'pug');
-// Hello 
+
 fccTesting(app); //For FCC testing purposes
 app.use('/public', express.static(process.cwd() + '/public'));
 app.use(express.json());
